@@ -35,20 +35,20 @@ Notas:
 
 function numberValues() {
   /* 
-  ¿Funcionará si asignamos así?:
+  ¿Funcionará si asignamos así?:*/
   
-    var javascriptLevelSkills = 1,
-        javascriptExpectedLevelSkills = 2
+    // var javascriptLevelSkills = 1,
+    //     javascriptExpectedLevelSkills = 2
 
-    var javascriptLevelSkills, javascriptExpectedLevelSkills = 1, 2
-
-    var javascriptLevelSkills, javascriptExpectedLevelSkills = 1 # => ¿Qué tipo de dato será javascriptLevelSkills?
+  /*  var javascriptLevelSkills, javascriptExpectedLevelSkills = 1, 2
   */
+
+   // var javascriptLevelSkills, javascriptExpectedLevelSkills = 1 // => ¿Qué tipo de dato será javascriptLevelSkills?
 
   var javascriptLevelSkills = 1
   var javascriptExpectedLevelSkills = 2
 
-  // javascriptLevelSkills = javascriptExpectedLevelSkills 
+  javascriptLevelSkills = javascriptExpectedLevelSkills 
 
   javascriptExpectedLevelSkills = 5
 
@@ -66,33 +66,34 @@ function stringValues() {
   
   var academyComment
  
-  // academyComment = 'Boolean Academia it's so cool!'
+  // academyComment = 'Boolean Academia it\'s so cool!'
   // academyComment = "Boolean Academia it's so cool!"   
 
   /*
-  // Suma de Strings 
-  var academyName = 'Boolean Academia'
-  var comment = "it's so cool!"
-  academyComment = academyName + comment
+  Suma de Strings 
   */
+  // var academyName = 'Boolean Academia'
+  // var comment = "it's so cool!"
+  // academyComment = academyName + comment
+
   
-  /*
+  
   // Interpolación de Strings
-  var academyName = 'Boolean Academia {{ comment }}'
-  var comment = "it's so cool!"
-  academyComment = academyName.replace('{{ comment }}', "it's so cool!")
-  */
+  // var academyName = 'Boolean Academia {{ comment }}'
+  // var comment = "it's so cool!"
+  // academyComment = academyName.replace('{{ comment }}', "it's so cool!")
+  
 
-  /*
+  
   // Manipulación de Strings
-  var academyName = 'boolean Academia'
-  var comment = " it's so cool!"
-  academyComment = academyName[0].toUpperCase()
-    + academyName.substring(1)
-    + comment  
-  */
+  // var academyName = 'boolean Academia'
+  // var comment = " it's so cool!"
+  // academyComment = academyName[0].toUpperCase()
+  //   + academyName.substring(1)
+  //   + comment  
+ 
 
-  /*   
+    
   var academyName = 'boolean academia'
   var comment = "it's so cool!"
 
@@ -102,7 +103,6 @@ function stringValues() {
     + academyName.substring(9)
     + ' '
     + comment  
-  */
 
   return academyComment
 }
@@ -129,10 +129,9 @@ function nullValues() {
   */
   var courseModules
 
-  /*
+  
   //  ¿En este punto que valor tiene courseModules?
   courseModules = null
-  */
 
   return courseModules
 }
@@ -140,21 +139,21 @@ function nullValues() {
 function undefinedValues() {
 
   /*
-  // ¿ Por qué se arroja una error "ReferenceError: studentAssigments is not defined" ?
-  var studentAssigments
-  */
+  // ¿ Por qué se arroja una error "ReferenceError: studentAssigments is not defined" ?*/
+  //var studentAssigments
+  
 
   /*
-  // Si intentamos acceder a una llave no definida en un objeto
-  var courseModules = {}
-  var studentAssigments = courseModules.assigments
-  */
+  // Si intentamos acceder a una llave no definida en un objeto*/
+  // var courseModules = {}
+  // var studentAssigments = courseModules.assigments
+  
 
-  /*
+  
   // Si intentamos acceder a una llave no definida en un objeto
   var courseModulesIds = [1,2]
   var studentAssigments = courseModulesIds[3]
-  */
+  
 
   return studentAssigments
 }
